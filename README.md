@@ -1,6 +1,12 @@
 # LITA-Capstone
 This data analysis and report was created for the Ladies in Tech Africa (LITA).
 
+[Overview](#overview)
+[Dataset](#dataset)
+[Methods](#methods)
+[Findings and Insights](#findings-and-insights)
+[Visualizations](#visualizations)
+
 ## Sales Performance Analysis for a Retail Store
 
 ### Overview
@@ -30,6 +36,15 @@ The following tools were used in the creation of this report.
      - Who are the top 10 customers?
 
   3. Data Visualization
+
+    ![Average per Region](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_avg%20per%20region.png)
+    ![Product Revenue](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_tr%20per%20product.png)
+    ![Average per product](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_avg%20per%20product.png)
+    ![Region per cent](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_region%20per%20cent.png)
+    ![Product per cent](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_product%20per%20cent.png)
+    ![Regional Revenue](https://github.com/kayeneii/LITA-Capstone/blob/main/sales_tr%20per%20region.png)
+
+
 
 - Microsoft Power BI: For,
   1. Further Data Processing:
