@@ -1,7 +1,7 @@
 # LITA-Capstone
 This data analysis and report was created for the Ladies in Tech Africa (LITA).
 
-##Sales Performance Analysis for a Retail Store
+## Sales Performance Analysis for a Retail Store
 
 ### Overview
 This project aims to analyze and report the sales performance of a retail store through the data provided, in order to uncover key insights such as the top-selling products, regional 
@@ -12,20 +12,48 @@ The dataset used is the Sales Data.xlsx [Download Here] obtained from the 'Ladie
 
 ### Methods
 The following tools were used in the creation of this report.
-- Microsoft Excel: For data cleaning and preparation, initial exploration, analysis, and visualization.
+- Microsoft Excel: For data cleaning and preparation, initial exploration, and visualization.
   1. Data Cleaning and Preparation:
      - Data loading and inspection
      - Data cleaning and formatting
 
-  3. Initial Exploration or Exploratory Data Analysis:
-     - 
-  5. Analysis
-  6. Data Visualization
+  2. Initial Exploration or Exploratory Data Analysis:
+     This involved an exploration of the data to derive answers to questions such as,
+     - What is the total sales by product?
+     - What is the total sales by region?
+     - What is the total sales by month?
+     - What is the average sales by product?
+     - What is the total revenue by region?
+     - Who are the top 10 customers?
+
+  3. Data Visualization
 
 - Microsoft Power BI: For,
-  1. Further Data Processing
-  2. Analysis
-  3. Visualization
+  1. Further Data Processing:
+     - Data loading and quality inspection
+     - Data transformation
+
+  2. Analysis:
+    During the analysis, additional columns were created using DAX functions. A Custom Column;
+    
+     ```DAX
+     1[Customer Id]
+     ```
+
+  and a Conditional Column, called No of Products.
+
+    ```DAX
+    If Product contains Hat Then 1
+    Else If Product contains Socks Then 2
+    Else If Product contains Jacket Then 3
+    Else If Product contains Shoes Then 4
+    Else If Product contains Shirt Then 5
+    Else If Product contains Gloves Then 6
+    Else 7
+    ```
+
+    
+  4. Visualization:
 
 - GitHUb: For,
   1. Portfolio Building
