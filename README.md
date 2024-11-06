@@ -73,3 +73,5 @@ Following an initial exploration of the Sales Data, the following findings were 
 
 ### Visualizations
 ---
+![Sales Data Report](https://github.com/kayeneii/LITA-Capstone/blob/main/Sales-Data-Viz.png)
+
