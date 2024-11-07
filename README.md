@@ -6,6 +6,7 @@ This data analysis and report was created for the Ladies in Tech Africa (LITA).
 [Methods](#methods)
 [Findings and Recommendations](#findings-and-recommendations)
 [Visualizations](#visualizations)
+[Conclusion](conclusion)
 
 ## Sales Performance Analysis for a Retail Store
 
